@@ -9,6 +9,7 @@ gem 'puma'
 gem 'rails', '5.1.6'
 gem 'redis'
 gem 'rest-client', '~> 2.0', '>= 2.0.2'
+gem 'jwt'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
