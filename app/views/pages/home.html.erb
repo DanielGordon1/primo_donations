@@ -1,2 +1,14 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div style="text-align: center;">
+  <h1>Pages#home</h1>
+  <p>Find me in app/views/pages/home.html.erb</p>
+  <ul class="list-unstyled">
+    <% @users.each do |user| %>
+    <li>
+      <p><%= user.name %></p>
+      <p><%= user.iban %></p>
+    </li>
+    <% end %>
+  </div>
+</div>
+
+
