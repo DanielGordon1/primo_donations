@@ -15,3 +15,6 @@ yarn-error.log
 
 # Ignore application configuration
 /config/application.yml
+private_key.pem
+public_key.pem
+
